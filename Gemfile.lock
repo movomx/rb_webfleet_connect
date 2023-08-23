@@ -1,0 +1,44 @@
+PATH
+  remote: .
+  specs:
+    webfleet_connect (0.1.0)
+      csv (~> 3.2, >= 3.2.7)
+      httparty (~> 0.21.0)
+      json (= 2.6.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    csv (3.2.7)
+    diff-lcs (1.5.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    json (2.6.3)
+    mini_mime (1.1.5)
+    multi_xml (0.6.0)
+    rake (13.0.6)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.6)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rake (~> 13.0)
+  rspec (~> 3.2)
+  webfleet_connect!
+
+BUNDLED WITH
+   2.2.33

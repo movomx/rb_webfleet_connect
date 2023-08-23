@@ -1,0 +1,2 @@
+module WebfleetConnect::Params
+end

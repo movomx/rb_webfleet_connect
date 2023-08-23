@@ -1,0 +1,2 @@
+module WebfleetConnect::Helpers
+end
