@@ -38,7 +38,7 @@ response.to_hash # [{:objectno=>"858EU4", :objectname=>"YRT-MMD2439", :objectcla
 
 `WebfleetConnect.create` returns a new `WebfleetConnect::Session` object which has the capabilities to request info from the WEBFLEET.connect API.
 
-The Webfllet credential are taken from the env variables `WEBFLEET_CONNECT_ACCOUNT`, `WEBFLEET_CONNECT_USERNAME`, `WEBFLEET_CONNECT_PASSWORD` and `WEBFLEET_CONNECT_APIKEY` (if you want to know more about env variables check [this link](https://www.honeybadger.io/blog/ruby-guide-environment-variables/)).
+The Webfleet credential are taken from the env variables `WEBFLEET_CONNECT_ACCOUNT`, `WEBFLEET_CONNECT_USERNAME`, `WEBFLEET_CONNECT_PASSWORD` and `WEBFLEET_CONNECT_APIKEY` (if you want to know more about env variables check [this link](https://www.honeybadger.io/blog/ruby-guide-environment-variables/)).
 
 If your system needs to work with multiple accounts or you need to specify the credentials dynamically for some other reason, you can do it this way:
 

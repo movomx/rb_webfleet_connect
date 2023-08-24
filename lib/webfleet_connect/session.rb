@@ -10,7 +10,7 @@ require_relative 'actions/trips'
 require_relative 'connection'
 
 module WebfleetConnect
-  class WebfleetConnect::Session
+  class Session
     include Actions::Addresses
     include Actions::Drivers
     include Actions::Events
