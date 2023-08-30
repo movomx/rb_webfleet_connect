@@ -10,6 +10,10 @@ Gem to consume WEBFLEET.connect API.
 
 The WEBFLEET.connect API connects software appli­ca­tions with the Webfleet fleet management solution. Via WEBFLEET.connect you can enhance the value of all types of business solutions, including routing and scheduling optimization, ERP, Transport Management System (TMS), supply chain planning, asset management, and much more.
 
+Check also the version for:
+
+- [javascript](https://github.com/movomx/webfleet_connect_js)
+
 ## Installation
 
 Add this line to your application's Gemfile:
