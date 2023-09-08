@@ -20,6 +20,10 @@ module WebfleetConnect
       "#{code}, #{@message}\n\nCheck #{api_docs_url} for more details.\n\n"
     end
 
+    def code
+      @code.to_i
+    end
+
     private
 
     def api_docs_url
