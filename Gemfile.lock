@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    webfleet_connect (0.1.0)
+    webfleet_connect (0.1.2)
       csv (~> 3.2, >= 3.2.7)
       httparty (~> 0.21.0)
       json (= 2.6.3)
@@ -41,4 +41,4 @@ DEPENDENCIES
   webfleet_connect!
 
 BUNDLED WITH
-   2.2.33
+   2.4.19

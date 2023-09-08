@@ -15,7 +15,7 @@ module WebfleetConnect::Actions::Trips
   add_action :show_working_times
   add_action :show_stand_stills
   add_action :show_idle_exceptions
-  add_action :get_object_kpis
-  add_action :get_driver_kpis
+  add_action(:get_object_kpis, 'getObjectKPIs')
+  add_action(:get_driver_kpis, 'getDriverKPIs')
   add_action :get_remaining_driving_times_eu
 end
