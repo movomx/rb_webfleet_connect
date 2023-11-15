@@ -139,7 +139,10 @@ webfleet_connect = WebfleetConnect.create(params)
 
 Mesage queues:
 
-- *Not implemented yet*
+- [create_queue_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/createqueueextern.html)
+- [delete_queue_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deletequeueextern.html)
+- [pop_queue_messages_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/popqueuemessagesextern.html)
+- [akc_queue_messages_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/ackqueuemessagesextern.html)
 
 Objects:
 
@@ -285,7 +288,14 @@ Areas:
 
 LINK.connect:
 
-- *Not implemented yet*
+- [send_aux_device_data](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/sendauxdevicedata.html)
+- [get_local_aux_device_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getlocalauxdeviceconfig.html)
+- [configure_local_aux_device](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/configurelocalauxdevice.html)
+- [get_remote_aux_device_data](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getremoteauxdevicedata.html)
+- [configure_remote_aux_device](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/configureremoteauxdevice.html)
+- [remove_remote_aux_device_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/removeremoteauxdeviceconfig.html)
+- [clear_aux_device_data_queue](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/clearauxdevicedataqueue.html)
+- [reset_aux_device_data](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/resetauxdevicedata.html)
 
 Plugins:
 

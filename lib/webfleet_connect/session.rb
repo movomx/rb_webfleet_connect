@@ -15,6 +15,8 @@ module WebfleetConnect
     include Actions::Drivers
     include Actions::Events
     include Actions::Geocoding
+    include Actions::LINKConnect
+    include Actions::MessageQueues
     include Actions::Messages
     include Actions::Miscellaneous
     include Actions::Objects
