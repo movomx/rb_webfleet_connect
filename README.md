@@ -142,7 +142,7 @@ Mesage queues:
 - [create_queue_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/createqueueextern.html)
 - [delete_queue_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deletequeueextern.html)
 - [pop_queue_messages_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/popqueuemessagesextern.html)
-- [akc_queue_messages_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/ackqueuemessagesextern.html)
+- [ack_queue_messages_extern](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/ackqueuemessagesextern.html)
 
 Objects:
 
