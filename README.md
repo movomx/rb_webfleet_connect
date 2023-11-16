@@ -291,7 +291,7 @@ LINK.connect:
 - [send_aux_device_data](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/sendauxdevicedata.html)
 - [get_local_aux_device_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getlocalauxdeviceconfig.html)
 - [configure_local_aux_device](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/configurelocalauxdevice.html)
-- [get_remote_aux_device_data](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getremoteauxdevicedata.html)
+- [get_remote_aux_device_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getremoteauxdeviceconfig.html)
 - [configure_remote_aux_device](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/configureremoteauxdevice.html)
 - [remove_remote_aux_device_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/removeremoteauxdeviceconfig.html)
 - [clear_aux_device_data_queue](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/clearauxdevicedataqueue.html)
