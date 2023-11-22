@@ -268,23 +268,56 @@ Geocoding and routing:
 
 Configuration and security:
 
-- *Not implemented yet*
+- [show_settings](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/showsettings.html)
+- [create_session](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/createsession.html)
+- [terminate_session](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/terminatesession.html)
+- [show_account_order_states](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/showaccountorderstates.html)
+- [update_account_order_state](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/updateaccountorderstate.html)
+- [show_account_order_automations](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/showaccountorderautomations.html)
+- [update_account_order_automation](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/updateaccountorderautomation.html)
+- [get_account_status_messages](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getaccountstatusmessages.html)
+- [get_status_messages](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getstatusmessages.html)
+- [set_vehicle_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/setvehicleconfig.html)
+- [get_vehicle_config](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getvehicleconfig.html)
+- [set_status_messages](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/setstatusmessages.html)
+- [set_account_status_messages](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/setaccountstatusmessages.html)
 
 User management:
 
-- *Not implemented yet*
+- [show_users](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/showusers.html)
+- [change_password](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/changepassword.html)
 
 Vehicle maintenance:
 
-- *Not implemented yet*
+- [insert_maintenance_schedule](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/insertmaintenanceschedule.html)
+- [update_maintenance_schedule](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/updatemaintenanceschedule.html)
+- [delete_maintenance_schedule](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deletemaintenanceschedule.html)
+- [show_maintenance_schedules](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/showmaintenanceschedules.html)
+- [show_maintenance_tasks](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/showmaintenancetasks.html)
+- [resolve_maintenance_task](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/resolvemaintenancetask.html)
 
 Reporting:
 
-- *Not implemented yet*
+- [get_archived_report_list](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getarchivedreportlist.html)
+- [get_archived_report](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getarchivedreport.html)
+- [delete_archived_report](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deletearchivedreport.html)
+- [get_report_list](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getreportlist.html)
+- [create_report](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/createreport.html)
+- [send_report_via_mail](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/sendreportviamail.html)
 
 Areas:
 
-- *Not implemented yet*
+- [get_areas](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getareas.html)
+- [insert_area](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/insertarea.html)
+- [delete_area](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deletearea.html)
+- [update_area](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/updatearea.html)
+- [get_area_points](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getareapoints.html)
+- [get_area_assignments](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getareaassignments.html)
+- [insert_area_assignment](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/insertareaassignment.html)
+- [delete_area_assignment](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deleteareaassignment.html)
+- [get_area_schedules](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/getareaschedules.html)
+- [insert_area_schedule](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/insertareaschedule.html)
+- [delete_area_schedule](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/deleteareaschedule.html)
 
 LINK.connect:
 
@@ -299,4 +332,5 @@ LINK.connect:
 
 Plugins:
 
-- *Not implemented yet*
+- [insert_external_event](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/insertexternalevent.html)
+- [set_external_object_data](https://www.webfleet.com/static/help/webfleet-connect/en_gb/index.html#data/setexternalobjectdata.html)
