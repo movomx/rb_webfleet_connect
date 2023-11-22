@@ -6,7 +6,7 @@ module WebfleetConnect::Actions::LINKConnect
 
   add_action :send_aux_device_data
   add_action :get_local_aux_device_config
-  add_action :configure_loca_aux_device
+  add_action :configure_local_aux_device
   add_action :get_remote_aux_device_config
   add_action :configure_remote_aux_device
   add_action :remove_remote_aux_device_config
