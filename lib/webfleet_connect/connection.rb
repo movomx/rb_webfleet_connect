@@ -32,8 +32,8 @@ module WebfleetConnect
     end
 
     def build_error_parser(session)
-      return FormatHandlers::JsonErrorParser.new(session) if json?
-      FormatHandlers::CsvErrorParser.new(session)
+      return FormatHandlers::JsonErrorParser.new if json?
+      FormatHandlers::CsvErrorParser.new
     end
   end
 end

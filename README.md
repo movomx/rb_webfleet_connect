@@ -13,6 +13,7 @@ The WEBFLEET.connect API connects software appli­ca­tions with the Webfleet fl
 Check also the version for:
 
 - [javascript](https://github.com/movomx/webfleet_connect_js)
+- [python](https://github.com/movomx/webfleet_connect_python)
 
 ## Installation
 
@@ -37,7 +38,8 @@ require 'webfleet_connect'
 
 webfleet_connect = WebfleetConnect.create
 response = webfleet_connect.show_object_report_extern
-response.to_hash # [{:objectno=>"858EU4", :objectname=>"YRT-MMD2439", :objectclassname=>"sales", ...
+response.to_hash 
+# [{:objectno=>"858EU4", :objectname=>"YRT-MMD2439", :objectclassname=>"sales", ...
 ```
 
 `WebfleetConnect.create` returns a new `WebfleetConnect::Session` object which has the capabilities to request info from the WEBFLEET.connect API.
